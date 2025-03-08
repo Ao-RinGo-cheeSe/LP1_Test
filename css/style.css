@@ -44,33 +44,45 @@ img {
 
 .__cta__con__block1 {
   width: 21.3%;
-  padding: 20px 0;
+  /* padding: 20px 0; */ /* 削除 */
   margin-right: 3.1%;
-  border: 1px solid #fff;
-  border-radius: 50px;
-  background-color: #F25B70;
+  /* border: 1px solid #fff; */ /* 削除 */
+  /* border-radius: 50px; */ /* 削除 */
+  /* background-color: #F25B70; */ /* 削除 */
   text-align: center;
 }
 
 .__cta__con__block1 a {
+  width: 100%; /* 追加 */
+  padding: 20px 0; /* 追加 */
+  border: 1px solid #fff; /* 追加 */
+  border-radius: 50px; /* 追加 */
+  background-color: #F25B70; /* 追加 */
   font-size: 1.125rem; /* 追加 */
   font-weight: bold;
   color: #fff;
+  display: block; /* 追加 */
 }
 
 .__cta__con__block2 {
   width: 21.3%;
-  padding: 20px 0;
+  /* padding: 20px 0; */ /* 削除 */
   margin-left: 3.1%;
-  border: 1px solid #fff;
-  border-radius: 50px;
-  background-color: #5D8DFD;
+  /* border: 1px solid #fff; */ /* 削除 */
+  /* border-radius: 50px; */ /* 削除 */
+  /* background-color: #5D8DFD; */ /* 削除 */
   text-align: center;
 }
 
 .__cta__con__block2 a {
+  width: 100%; /* 追加 */
+  padding: 20px 0; /* 追加 */
+  border: 1px solid #fff; /* 追加 */
+  border-radius: 50px; /* 追加 */
+  background-color: #5d8dfd; /* 追加 */
   font-size: 1.125rem; /* 追加 */
   color: #fff;
+  display: block; /* 追加 */
 }
 
 
@@ -94,7 +106,7 @@ img {
 /* Top */
 .top-wrap {
   width: 100%;
-  height: 100vh; /* 追加 */
+  height: 100vh;
   background: linear-gradient(90deg, #5D8DFD, #fff);
   display: flex;
   justify-content: center;
@@ -103,14 +115,13 @@ img {
 
 .top-wrap__img {
   width: 50%;
-  height: 100vh; /* 追加 */
+  height: 100vh;
 }
 
 .top-wrap__img img {
   width: 100%;
-  height: 100%; /* 追加 */
-  /* aspect-ratio: 720 / 417; */ /* 削除 */
-  object-fit: cover; /* 追加 */
+  height: 100%;
+  object-fit: cover;
 }
 
 .top-wrap__con {
@@ -125,13 +136,11 @@ img {
 
 .top-wrap__con__txt {
   padding-bottom: 40px;
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2rem;  /* 追加 */
+  font-size: 2rem;
 }
 
 .top-wrap__con__ttl {
-  /* font-size: 2.25rem; */ /* 削除 */
-  font-size: 2.5rem; /* 追加 */
+  font-size: 2.5rem;
   color: #255BCB;
 }
 
@@ -147,14 +156,12 @@ img {
 
 .top-wrap__con__block__txt {
   padding-right: 20px;
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
 }
 
 .top-wrap__con__block__stamp {
-  /* width: 120px; */ /* 削除 */
-  width: 140px; /* 追加 */
-  /* height: 120px; */ /* 削除 */
-  height: 140px; /* 追加 */
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-color: #255BCB;
   color: #fff;
@@ -165,22 +172,20 @@ img {
 }
 
 .top-wrap__con__block__stamp p:nth-of-type(1) {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.875rem; /* 追加 */
+  font-size: 0.875rem;
 }
 
 .top-wrap__con__block__stamp p:nth-of-type(2) {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.875rem; /* 追加 */
+  font-size: 0.875rem;
 }
 
 .top-wrap__con__block__stamp p:nth-of-type(3) {
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .top-wrap__con__block__stamp p:nth-of-type(4) {
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -208,8 +213,7 @@ img {
 
 .result-wrap__top__ttl {
   padding-bottom: 20px;
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2.0rem; /* 追加 */
+  font-size: 2.0rem;
   font-weight: 500;
   color: #255BCB;
   display: flex;
@@ -232,18 +236,15 @@ img {
 
 .result-wrap__top__txt p:nth-of-type(1) {
   padding-bottom: 5px;
-  /* font-size: 0.875rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
 }
 
 .result-wrap__top__txt p:nth-of-type(2) {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.75rem; /* 追加 */
+  font-size: 0.75rem;
 }
 
 .result-wrap__bottom {
-  /* width: 51.1%; */ /* 削除 */
-  width: 80%; /* 追加 */
+  width: 80%;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -252,11 +253,9 @@ img {
 }
 
 .result-wrap__bottom__ttl {
-  /* padding-top: 30px; */ /* 削除 */
   padding-bottom: 15px;
-  margin-top: 30px; /* 追加 */
-  /* font-size: 1.25rem; */ /* 削除 */
-  font-size: 1.5rem; /* 追加 */
+  margin-top: 30px;
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -266,8 +265,7 @@ img {
 
 .result-wrap__bottom__con {
   width: 100%;
-  /* margin-bottom: 15px; */ /* 追加 */ /* 削除 */
-  margin-bottom: 30px; /* 削除 */
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,20 +274,16 @@ img {
 .result-wrap__bottom__con__block {
   margin-left: 30px;
   margin-right: 15px;
-  /* margin-bottom: 15px; */ /* 削除 */
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .result-wrap__bottom__con__block__stamp {
-  /* width: 90px; */ /* 削除 */
-  width: 110px; /* 追加 */
-  /* height: 90px; */ /* 削除 */
-  height: 110px; /* 追加 */
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   background-color: #255BCB;
-  /* font-size: 0.75rem; */ /* 削除 */
   color: #fff;
   display: flex;
   justify-content: center;
@@ -313,13 +307,11 @@ img {
 }
 
 .result-wrap__bottom__con__logo__block:nth-of-type(1) {
-  /* padding-bottom: 5px; */ /* 削除 */
-  padding-bottom: 10px; /* 追加 */
+  padding-bottom: 10px;
 }
 
 .result-wrap__bottom__con__logo__block:nth-of-type(2) {
-  /* padding-top: 5px; */ /* 削除 */
-  padding-top: 10px; /* 追加 */
+  padding-top: 10px;
 }
 
 .result-wrap__bottom__con__logo__block__img {
@@ -361,8 +353,7 @@ img {
 }
 
 .warning-wrap__con__main__ttl h3 {
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2rem; /* 追加 */
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -377,10 +368,8 @@ img {
 }
 
 .warning-wrap__con__main__txt__block__img {
-  /* width: 14px; */ /* 削除 */
-  width: 27px; /* 追加 */
-  /* height: 14px; */ /* 削除 */
-  height: 27px; /* 追加 */
+  width: 27px;
+  height: 27px;
   padding-right: 5px;
 }
 
@@ -390,13 +379,12 @@ img {
 }
 
 .warning-wrap__con__main__txt__block__txt p {
-  /* font-size: 0.75rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
 }
 
 .warning-wrap__bg {
   width: 50%;
-  height: 278px; /* 追加 */
+  height: 278px;
 }
 
 .warning-wrap__img {
@@ -416,8 +404,7 @@ img {
 
 .warning-wrap__img img {
   width: 100%;
-  height: 278px; /* 追加 */
-  /* aspect-ratio: 36 / 11; */ /* 削除 */
+  height: 278px;
   object-fit: cover;
 }
 
@@ -458,14 +445,12 @@ img {
 }
 
 .feature-wrap__block__ttl h3 {
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2rem; /* 追加 */
+  font-size: 2rem;
   color: #255bcb;
 }
 
 .feature-wrap__block__txt p {
-  /* font-size: 1.25rem; */ /* 削除 */
-  font-size: 1.5rem; /* 追加 */
+  font-size: 1.5rem;
 }
 
 .feature-wrap__con {
@@ -488,10 +473,8 @@ img {
 }
 
 .feature-wrap__con__main__block__detail {
-  /* width: 796px; */ /* 削除 */
   width: 80%;
   display: flex;
-  /* justify-content: flex-start; */ /*削除 */
   justify-content: space-between;
   align-items: center;
 }
@@ -502,7 +485,6 @@ img {
 
 .feature-wrap__con__main__block__detail__img {
   width: 40%;
-  /* padding-right: 45px; */ /* 削除 */
 }
 
 .feature-wrap__con__main__block__detail__img img {
@@ -512,7 +494,7 @@ img {
 }
 
 .feature-wrap__con__main__block__detail__right {
-  width: 650px; /* 追加 */
+  width: 650px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -520,20 +502,18 @@ img {
 }
 
 .feature-wrap__con__main__block__detail__right__num {
-  /* font-size: 2.5rem; */ /* 削除 */
-  font-size: 3rem; /* 追加 */
+  font-size: 3rem;
 }
 
 .feature-wrap__con__main__block__detail__right__ttl {
   padding-top: 5px;
   padding-bottom: 15px;
-  font-size: 1.5rem; /* 追加 */
+  font-size: 1.5rem;
   color: #2055c3;
 }
 
 .feature-wrap__con__main__block__detail__right__txt {
-  /* font-size: 0.75rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
 }
 
 
@@ -548,89 +528,206 @@ img {
 }
 
 .service-wrap__ttl h3 {
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2rem; /* 追加 */
+  font-size: 2rem;
   color: #255bcb;
 }
 
 .service-wrap__main {
-  /* width: 60%; */ /* 削除 */
-  /* width: 80%; */ /* 追加 */ /* 削除 */
-  width: 95%; /* 追加 */
+  /* width: 95%; */ /* 削除 */
+  width: 80%; /* 追加 */
   margin: 0 auto;
-  padding-top: 15px;
-  /* padding-bottom: 35px; */ /* 削除 */
+  /* padding-top: 15px; */ /* 削除 */
+  margin-top: 35px; /* 追加 */
   margin-bottom: 55px;
+  display: flex;
+  /* justify-content: space-between; */ /* 削除 */
+  justify-content: center; /* 追加 */
+  /* align-items: flex-start; */ /* 削除 */
+  align-items: center; /* 追加 */
+  flex-direction: column; /* 追加 */
+}
+
+.service-wrap__main__top {
+  width: 100%;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
+} /* 追加 */
 
-.service-wrap__main__con {
-  /* width: 168px; */ /* 削除 */
-  /* width: 196px; */ /*  追加 */ /* 削除 */
-  width: 252px; /* 追加 */
+.service-wrap__main__top__con {
+  width: 252px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} /* 追加 */
 
-.service-wrap__main__con__img {
-  /* width: 60px; */ /* 削除 */
-  width: 100px; /* 追加 */
-  /* height: 60px; */  /* 削除 */
-  height: 100px; /* 追加 */
-  margin-bottom: 10px; /* 追加 */
-}
+/* .service-wrap__main__con {
+  width: 252px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */ /* 削除 */
 
-.service-wrap__main__con__img img {
+.service-wrap__main__top__con__img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+} /* 追加 */
+
+/* .service-wrap__main__con__img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+} */ /* 削除 */
+
+.service-wrap__main__top__con__img img {
   width: 100%;
   aspect-ratio: 1 / 1;
-}
+} /* 追加 */
 
-.service-wrap__main__con__block {
+/* .service-wrap__main__con__img img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+} */ /* 削除 */
+
+.service-wrap__main__top__con__block {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} /* 追加 */
 
-.service-wrap__main__con__block__ttl {
+/* .service-wrap__main__con__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */ /* 削除 */
+
+.service-wrap__main__top__con__block__ttl {
   margin-bottom: 15px;
 } /* 追加 */
 
-.service-wrap__main__con__block__ttl h4 {
-  /* font-size: 0.875rem; */ /* 削除 */
-  font-size: 1.25rem; /* 追加 */
-  color: #255bcb;
-}
+/* .service-wrap__main__con__block__ttl {
+  margin-bottom: 15px;
+} */ /* 削除 */
 
-.service-wrap__main__con__block__txt {
+.service-wrap__main__top__con__block__ttl h4 {
+  font-size: 1.25rem;
+  color: #255bcb;
+} /* 追加 */
+
+/* .service-wrap__main__con__block__ttl h4 {
+  font-size: 1.25rem;
+  color: #255bcb;
+} */ /* 削除 */
+
+.service-wrap__main__top__con__block__txt {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} /* 追加 */
 
-.service-wrap__main__con__block__txt p {
-  /* font-size: 0.75rem; */ /* 削除 */
-  /* font-size: 0.875rem; */ /* 追加 */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
-}
+/* .service-wrap__main__con__block__txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */ /* 削除 */
 
-.service-wrap__main__con__block__txt p:nth-of-type(1) {
+.service-wrap__main__top__con__block__txt p {
+  font-size: 1.125rem;
+} /* 追加 */
+
+/* .service-wrap__main__con__block__txt p {
+  font-size: 1.125rem;
+} */ /* 削除 */
+
+.service-wrap__main__top__con__block__txt p:nth-of-type(1) {
   margin-bottom: 10px;
 } /* 追加 */
 
-.service-wrap__main__con__block__txt p:nth-of-type(2) {
+/* .service-wrap__main__con__block__txt p:nth-of-type(1) {
+  margin-bottom: 10px;
+} */ /* 削除 */
+
+/* .service-wrap__main__con__block__txt p:nth-of-type(2) {
+  margin-bottom: 10px;
+} */ /* 削除 */
+
+.service-wrap__main__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+} /* 追加 */
+
+.service-wrap__main__bottom__con {
+  width: 252px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} /* 追加 */
+
+/* .service-wrap__main__bottom__con:nth-of-type(2) {
+  margin-left: 17%;
+} */ /* 追加 */
+
+.service-wrap__main__bottom__con__img {
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 } /* 追加 */
+
+.service-wrap__main__bottom__con__img img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__ttl {
+  margin-bottom: 15px;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__ttl h4 {
+  font-size: 1.25rem;
+  color: #255bcb;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__txt p {
+  font-size: 1.125rem;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__txt p:nth-of-type(1) {
+  margin-bottom: 10px;
+} /* 追加 */
+
+.service-wrap__main__bottom__con__block__txt p:nth-of-type(2) {
+  margin-bottom: 10px;
+} /* 追加 */
+
+
 
 .service-wrap__sub {
-  /* padding: 19px 35px 15px 35px; */ /* 削除 */
-  /* padding: 22px 35px 15px 35px; */ /* 追加 */ /* 削除 */
-  padding: 23.5px 35px; /* 追加 */
+  padding: 23.5px 35px;
   border: 1px solid #dfdfdf;
   background-color: #fff;
   display: flex;
@@ -650,16 +747,13 @@ img {
 }
 
 .service-wrap__sub__ttl h4 {
-  /* font-size: 0.875rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
   color: #fff;
 }
 
 .service-wrap__sub__left {
-  /* width: 80px; */ /* 削除 */
-  width: 110px; /* 追加 */
-  /* height: 80px; */ /* 削除 */
-  height: 110px; /* 追加 */
+  width: 110px;
+  height: 110px;
   border: 1px solid #255bcb;
   border-radius: 50%;
   display: flex;
@@ -669,20 +763,17 @@ img {
 }
 
 .service-wrap__sub__left p {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.875rem; /* 追加 */
+  font-size: 0.875rem;
   color: #255bcb;
 }
 
 .service-wrap__sub__left p:nth-of-type(3) {
-  /* font-size: 1.25rem; */ /* 削除 */
-  font-size: 1.5rem; /* 追加 */
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .service-wrap__sub__center {
-  /* padding: 0 15px; */ /* 削除 */
-  padding: 0 30px; /* 追加 */
+  padding: 0 30px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -690,14 +781,12 @@ img {
 }
 
 .service-wrap__sub__center p:nth-of-type(1) {
-  /* font-size: 1.25rem; */ /* 削除 */
-  font-size: 1.5rem; /* 追加 */
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .__center__strong {
-  /* font-size: 2.25rem; */ /* 削除 */
-  font-size: 2.5rem; /* 追加 */
+  font-size: 2.5rem;
   color: #ea346d;
 }
 
@@ -707,13 +796,7 @@ img {
 }
 
 .service-wrap__sub__center p:nth-of-type(2) {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.75rem; /* 追加 */
-}
-
-.service-wrap__sub__right p {
-  /* font-size: 0.625rem; */ /* 削除 */
-  /* font-size: 0.875rem; */ /* 追加 */ /* 削除 */
+  font-size: 0.75rem;
 }
 
 
@@ -730,7 +813,6 @@ img {
 
 .interview-wrap__ttl {
   margin-bottom: 35px;
-  /* font-size: 0.75rem; */ /* 削除 */
   color: #fff;
   display: flex;
   justify-content: center;
@@ -743,8 +825,7 @@ img {
 }
 
 .interview-wrap__con {
-  /* width: 60%; */ /* 削除 */
-  width: 75%; /* 追加 */
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -752,9 +833,7 @@ img {
 }
 
 .interview-wrap__con__block {
-  /* width: 271px; */ /* 削除 */
-  width: 343px;  /* 追加 */
-  /* height: 385px; */ /* 削除 */
+  width: 343px;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -764,11 +843,9 @@ img {
 }
 
 .interview-wrap__con__block__circle {
-  /* width: 175px; */ /* 削除 */
-  width: 195px; /* 追加 */
-  /* height: 175px; */ /* 削除 */
-  height: 195px; /* 追加 */
-  padding-top: 20px; /* 追加 */
+  width: 195px;
+  height: 195px;
+  padding-top: 20px;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -779,9 +856,7 @@ img {
 }
 
 .interview-wrap__con__block__circle__img {
-  /* width: 119px; */ /* 削除 */
-  width: 65%; /* 追加 */
-  /* height: 95px; */ /* 削除 */
+  width: 65%;
   padding-bottom: 5px;
 }
 
@@ -793,8 +868,7 @@ img {
 }
 
 .interview-wrap__con__block__circle__txt {
-  /* font-size: 0.625rem; */ /* 削除 */
-  font-size: 0.75rem; /* 追加 */
+  font-size: 0.75rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -803,7 +877,7 @@ img {
 }
 
 .interview-wrap__con__block__main {
-  padding-bottom: 20px; /* 追加 */
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -824,42 +898,21 @@ img {
   align-items: center;
 }
 
-/* .interview-wrap__con__block__ttl__triangle {
-  width: 18px;
-  height: 22px;
-  background-color: #255bcb;
-  clip-path: polygon(0 0, 100% 50%, 0 100%);
-} */ /* 削除 */
-
 .interview-wrap__con__block__main__ttl__triangle {
-  /* width: 18px; */ /* 削除 */
-  width: 20px; /* 追加 */
-  /* height: 22px; */ /* 削除 */
-  height: 24px; /* 追加 */
+  width: 20px;
+  height: 24px;
   margin-right: 5px;
   background-color: #255bcb;
   clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 
-/* .interview-wrap__con__block__ttl h4 {
-  font-size: 1.125rem;
-  color: #255bcb;
-} */ /* 削除 */
-
 .interview-wrap__con__block__main__ttl h4 {
-  /* font-size: 1.125rem; */ /* 削除 */
-  font-size: 1.5rem; /* 追加 */
+  font-size: 1.5rem;
   color: #255bcb;
 }
 
-/* .interview-wrap__con__block__txt {
-  font-size: 0.875rem;
-  font-weight: 500;
-} */ /* 削除 */
-
 .interview-wrap__con__block__main__txt {
-  /* font-size: 0.875rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
@@ -887,8 +940,7 @@ img {
 
 .footer-wrap__con__ttl {
   padding-bottom: 20px;
-  /* font-size: 1.5rem; */ /* 削除 */
-  font-size: 2.0rem; /* 追加 */
+  font-size: 2.0rem;
   font-weight: 400;
   color: #255bcb;
 }
@@ -898,14 +950,12 @@ img {
 }
 
 .footer-wrap__con__txt {
-  /* font-size: 0.75rem; */ /* 削除 */
-  font-size: 1.125rem; /* 追加 */
+  font-size: 1.125rem;
 }
 
 .footer-wrap__con__txt span {
   font-weight: bold;
-  /* font-size: 1rem; */ /* 削除 */
-  font-size: 1.25rem; /* 追加 */
+  font-size: 1.25rem;
 }
 
 .footer-wrap__con__txt p:nth-of-type(1) {
