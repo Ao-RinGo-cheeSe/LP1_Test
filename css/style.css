@@ -73,7 +73,7 @@ img {
   border-radius: 50px;
   background-color: #5d8dfd;
   font-size: 1.125rem;
-  font-weight: bold; /* 追加 */
+  font-weight: bold;
   color: #fff;
   display: block;
 }
@@ -88,15 +88,14 @@ img {
 }
 
 .header-wrap {
-  /* height: 50px; */ /* 削除 */
-  height: 70px; /* 追加 */
+  height: 70px;
   padding-left: 50px;
   background-color: #fff;
   font-size: 2rem;
   color: #5686e5;
-  display: flex; /* 追加 */
-  justify-content: flex-start; /* 追加 */
-  align-items: center; /* 追加 */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 
@@ -194,9 +193,9 @@ img {
 
 .result-wrap {
   width: 100%;
-  padding-top: 70px;
-  /* padding-bottom: 25px; */ /* 削除 */
-  padding-bottom: 45px; /* 追加 */
+  /* padding-top: 70px; */ /* 削除 */
+  /* padding-bottom: 45px; */ /* 削除 */
+  padding: 45px 0; /* 追加 */
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
@@ -324,26 +323,37 @@ img {
 /* Warning */
 .warning-wrap {
   width: 100%;
-  background-color: #E5E5E5;
-  position: relative;
+  background-color: #e5e5e5;
+  /* position: relative; */ /* 削除 */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */ /* 削除 */
+  justify-content: flex-end; /* 追加 */
   align-items: center;
 }
 
 .warning-wrap__con {
-  width: 100%;
-  margin-top: 70px; /* 追加 */
-  margin-bottom: 45px; /* 追加 */
-  position: absolute;
-  /* top: 13.5%; */ /* 削除 */
-  top: 0; /* 追加 */
+  /* width: 100%; */ /* 削除 */
+  width: 50%; /* 追加 */
+  /* margin-top: 70px; */ /* 削除 */
+  /* margin-bottom: 45px; */ /* 削除 */
+  padding: 45px 0; /* 追加 */
+  /* position: absolute; */ /* 削除 */
+  /* top: 0; */ /* 削除 */
+  background: linear-gradient(90deg, rgba(229, 229, 229, 1) 20%, rgba(229, 229, 229, 0) 100%), url(../img/Warning-woman.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  z-index: 9;
+  /* flex-direction: column; */ /* 削除 */
+  /* z-index: 9; */ /* 削除 */
 }
+
+.warning-wrap__con__main {
+  position: relative;
+  top: 0;
+  left: -50%;
+} /* 追加 */
 
 .warning-wrap__con__main__ttl {
   padding-bottom: 20px;
@@ -383,13 +393,12 @@ img {
   font-size: 1.125rem;
 }
 
-.warning-wrap__bg {
+/* .warning-wrap__bg {
   width: 50%;
-  /* height: 278px; */ /* 削除 */
-  height: 332px; /* 追加 */
-}
+  height: 332px;
+} */ /* 削除 */
 
-.warning-wrap__img {
+/* .warning-wrap__img {
   width: 50%;
   position: relative;
 }
@@ -406,10 +415,9 @@ img {
 
 .warning-wrap__img img {
   width: 100%;
-  /* height: 278px; */ /* 削除 */
-  height: 332px; /* 追加 */
+  height: 332px;
   object-fit: cover;
-}
+} */ /* 削除 */
 
 
 /* Feature */
@@ -522,9 +530,9 @@ img {
 
 /* Service */
 .service-wrap {
-  /* padding: 30px 0; */ /* 削除 */
-  padding-top: 70px; /* 追加 */
-  padding-bottom: 45px; /* 追加 */
+  /* padding-top: 70px; */ /* 削除 */
+  /* padding-bottom: 45px; */ /* 削除 */
+  padding: 45px 0; /* 追加 */
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
@@ -552,8 +560,7 @@ img {
   width: 100%;
   margin-bottom: 15px;
   display: flex;
-  /* justify-content: space-between; */ /* 削除 */
-  justify-content: center; /* 追加 */
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -567,7 +574,7 @@ img {
 
 .service-wrap__main__top__con:nth-of-type(2) {
   margin: 0 10%;
-} /* 追加 */
+}
 
 .service-wrap__main__top__con__img {
   width: 100px;
@@ -614,8 +621,7 @@ img {
 .service-wrap__main__bottom {
   width: 100%;
   display: flex;
-  /* justify-content: space-around; */ /* 削除 */
-  justify-content: center; /* 追加 */
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -629,11 +635,11 @@ img {
 
 .service-wrap__main__bottom__con:nth-of-type(1) {
   margin-right: 5%;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con:nth-of-type(2) {
   margin-left: 5%;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__img {
   width: 100px;
@@ -757,9 +763,9 @@ img {
 
 /* Interview */
 .interview-wrap {
-  /* padding-top: 30px; */ /* 削除 */
-  padding-top: 70px; /* 追加 */
-  padding-bottom: 45px;
+  /* padding-top: 70px; */ /* 削除 */
+  /* padding-bottom: 45px; */ /* 削除 */
+  padding: 45px 0; /* 追加 */
   background-color: #b2c7fe;
   display: flex;
   justify-content: center;
@@ -875,10 +881,9 @@ img {
 
 /* Footer */
 .footer-wrap {
-  /* padding-top: 50px; */ /* 削除 */
-  padding-top: 70px; /* 追加 */
-  /* padding-bottom: 40px; */ /* 削除 */
-  padding-bottom: 45px; /* 追加 */
+  /* padding-top: 70px; */ /* 削除 */
+  /* padding-bottom: 45px; */ /* 削除 */
+  padding: 45px 0; /* 追加 */
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), url(../img/Footer-bg.jpg);
   background-position: center;
   background-size: cover;
