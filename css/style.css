@@ -44,45 +44,38 @@ img {
 
 .__cta__con__block1 {
   width: 21.3%;
-  /* padding: 20px 0; */ /* 削除 */
   margin-right: 3.1%;
-  /* border: 1px solid #fff; */ /* 削除 */
-  /* border-radius: 50px; */ /* 削除 */
-  /* background-color: #F25B70; */ /* 削除 */
   text-align: center;
 }
 
 .__cta__con__block1 a {
-  width: 100%; /* 追加 */
-  padding: 20px 0; /* 追加 */
-  border: 1px solid #fff; /* 追加 */
-  border-radius: 50px; /* 追加 */
-  background-color: #F25B70; /* 追加 */
-  font-size: 1.125rem; /* 追加 */
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #F25B70;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #fff;
-  display: block; /* 追加 */
+  display: block;
 }
 
 .__cta__con__block2 {
   width: 21.3%;
-  /* padding: 20px 0; */ /* 削除 */
   margin-left: 3.1%;
-  /* border: 1px solid #fff; */ /* 削除 */
-  /* border-radius: 50px; */ /* 削除 */
-  /* background-color: #5D8DFD; */ /* 削除 */
   text-align: center;
 }
 
 .__cta__con__block2 a {
-  width: 100%; /* 追加 */
-  padding: 20px 0; /* 追加 */
-  border: 1px solid #fff; /* 追加 */
-  border-radius: 50px; /* 追加 */
-  background-color: #5d8dfd; /* 追加 */
-  font-size: 1.125rem; /* 追加 */
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #5d8dfd;
+  font-size: 1.125rem;
+  font-weight: bold; /* 追加 */
   color: #fff;
-  display: block; /* 追加 */
+  display: block;
 }
 
 
@@ -95,11 +88,15 @@ img {
 }
 
 .header-wrap {
-  height: 50px;
+  /* height: 50px; */ /* 削除 */
+  height: 70px; /* 追加 */
   padding-left: 50px;
   background-color: #fff;
   font-size: 2rem;
-  color: #5686E5;
+  color: #5686e5;
+  display: flex; /* 追加 */
+  justify-content: flex-start; /* 追加 */
+  align-items: center; /* 追加 */
 }
 
 
@@ -198,7 +195,8 @@ img {
 .result-wrap {
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */ /* 削除 */
+  padding-bottom: 45px; /* 追加 */
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
@@ -335,8 +333,11 @@ img {
 
 .warning-wrap__con {
   width: 100%;
+  margin-top: 70px; /* 追加 */
+  margin-bottom: 45px; /* 追加 */
   position: absolute;
-  top: 13.5%;
+  /* top: 13.5%; */ /* 削除 */
+  top: 0; /* 追加 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,7 +385,8 @@ img {
 
 .warning-wrap__bg {
   width: 50%;
-  height: 278px;
+  /* height: 278px; */ /* 削除 */
+  height: 332px; /* 追加 */
 }
 
 .warning-wrap__img {
@@ -404,7 +406,8 @@ img {
 
 .warning-wrap__img img {
   width: 100%;
-  height: 278px;
+  /* height: 278px; */ /* 削除 */
+  height: 332px; /* 追加 */
   object-fit: cover;
 }
 
@@ -519,7 +522,9 @@ img {
 
 /* Service */
 .service-wrap {
-  padding: 30px 0;
+  /* padding: 30px 0; */ /* 削除 */
+  padding-top: 70px; /* 追加 */
+  padding-bottom: 45px; /* 追加 */
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
@@ -533,27 +538,24 @@ img {
 }
 
 .service-wrap__main {
-  /* width: 95%; */ /* 削除 */
-  width: 80%; /* 追加 */
+  width: 80%;
   margin: 0 auto;
-  /* padding-top: 15px; */ /* 削除 */
-  margin-top: 35px; /* 追加 */
+  margin-top: 35px;
   margin-bottom: 55px;
   display: flex;
-  /* justify-content: space-between; */ /* 削除 */
-  justify-content: center; /* 追加 */
-  /* align-items: flex-start; */ /* 削除 */
-  align-items: center; /* 追加 */
-  flex-direction: column; /* 追加 */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .service-wrap__main__top {
   width: 100%;
   margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */ /* 削除 */
+  justify-content: center; /* 追加 */
   align-items: flex-start;
-} /* 追加 */
+}
 
 .service-wrap__main__top__con {
   width: 252px;
@@ -561,110 +563,61 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} /* 追加 */
+}
 
-/* .service-wrap__main__con {
-  width: 252px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */ /* 削除 */
+.service-wrap__main__top__con:nth-of-type(2) {
+  margin: 0 10%;
+} /* 追加 */
 
 .service-wrap__main__top__con__img {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
-} /* 追加 */
-
-/* .service-wrap__main__con__img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__img img {
   width: 100%;
   aspect-ratio: 1 / 1;
-} /* 追加 */
-
-/* .service-wrap__main__con__img img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} /* 追加 */
-
-/* .service-wrap__main__con__block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block__ttl {
   margin-bottom: 15px;
-} /* 追加 */
-
-/* .service-wrap__main__con__block__ttl {
-  margin-bottom: 15px;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block__ttl h4 {
   font-size: 1.25rem;
   color: #255bcb;
-} /* 追加 */
-
-/* .service-wrap__main__con__block__ttl h4 {
-  font-size: 1.25rem;
-  color: #255bcb;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block__txt {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} /* 追加 */
-
-/* .service-wrap__main__con__block__txt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block__txt p {
   font-size: 1.125rem;
-} /* 追加 */
-
-/* .service-wrap__main__con__block__txt p {
-  font-size: 1.125rem;
-} */ /* 削除 */
+}
 
 .service-wrap__main__top__con__block__txt p:nth-of-type(1) {
   margin-bottom: 10px;
-} /* 追加 */
-
-/* .service-wrap__main__con__block__txt p:nth-of-type(1) {
-  margin-bottom: 10px;
-} */ /* 削除 */
-
-/* .service-wrap__main__con__block__txt p:nth-of-type(2) {
-  margin-bottom: 10px;
-} */ /* 削除 */
+}
 
 .service-wrap__main__bottom {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */ /* 削除 */
+  justify-content: center; /* 追加 */
   align-items: flex-start;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con {
   width: 252px;
@@ -672,59 +625,61 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.service-wrap__main__bottom__con:nth-of-type(1) {
+  margin-right: 5%;
 } /* 追加 */
 
-/* .service-wrap__main__bottom__con:nth-of-type(2) {
-  margin-left: 17%;
-} */ /* 追加 */
+.service-wrap__main__bottom__con:nth-of-type(2) {
+  margin-left: 5%;
+} /* 追加 */
 
 .service-wrap__main__bottom__con__img {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__img img {
   width: 100%;
   aspect-ratio: 1 / 1;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__ttl {
   margin-bottom: 15px;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__ttl h4 {
   font-size: 1.25rem;
   color: #255bcb;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__txt {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__txt p {
   font-size: 1.125rem;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__txt p:nth-of-type(1) {
   margin-bottom: 10px;
-} /* 追加 */
+}
 
 .service-wrap__main__bottom__con__block__txt p:nth-of-type(2) {
   margin-bottom: 10px;
-} /* 追加 */
-
-
+}
 
 .service-wrap__sub {
   padding: 23.5px 35px;
@@ -802,7 +757,8 @@ img {
 
 /* Interview */
 .interview-wrap {
-  padding-top: 30px;
+  /* padding-top: 30px; */ /* 削除 */
+  padding-top: 70px; /* 追加 */
   padding-bottom: 45px;
   background-color: #b2c7fe;
   display: flex;
@@ -919,8 +875,10 @@ img {
 
 /* Footer */
 .footer-wrap {
-  padding-top: 50px;
-  padding-bottom: 40px;
+  /* padding-top: 50px; */ /* 削除 */
+  padding-top: 70px; /* 追加 */
+  /* padding-bottom: 40px; */ /* 削除 */
+  padding-bottom: 45px; /* 追加 */
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), url(../img/Footer-bg.jpg);
   background-position: center;
   background-size: cover;
